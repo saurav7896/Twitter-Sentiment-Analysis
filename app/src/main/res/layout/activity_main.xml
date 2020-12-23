@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Lion"
+    android:background="#486b93"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="1in"
+        android:layout_height="1in"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/chart"
+        android:onClick="onImageClick3"
+        android:text=""
+        android:layout_below="@+id/btn1"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="1in"
+        android:layout_height="1in"
+        android:background="@drawable/analysis"
+        android:onClick="onImageClick1"
+        android:text=""
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="1in"
+        android:layout_height="1in"
+        android:background="@drawable/sentiment"
+        android:onClick="onImageClick2"
+        android:text=""
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp" />
+
+</RelativeLayout>
